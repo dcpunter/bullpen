@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Pitchers" icon-name="standard:campaign">
+        <template if:true={pitchers.data}>
+            <div class="slds-p-around_medium lgc-bg">
+                <template for:each={pitchers.data} for:item="pitcher">
+                    <ul class="slds-has-dividers_bottom-space" key={pitcher.Id}>
+                        <c-pitcher
+                            id = {pitcher.Id}
+                            name = {pitcher.Name}
+                            throws = {pitcher.Throws__c}>
+                        </c-pitcher>
+                    </ul>
+                </template>
+            </div>
+        </template>
+    </lightning-card>
+</template>

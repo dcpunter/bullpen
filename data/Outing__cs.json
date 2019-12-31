@@ -1,0 +1,12 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Outing__c",
+                "referenceId": "Outing__cRef1"
+            },
+            "Name": "New Outing",
+            "Pitcher__c": "@Pitcher__cRef2"
+        }
+    ]
+}

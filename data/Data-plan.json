@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Pitcher__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Pitcher__cs.json"
+        ]
+    },
+    {
+        "sobject": "Outing__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Outing__cs.json"
+        ]
+    }
+]

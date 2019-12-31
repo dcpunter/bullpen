@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Pitcher__c",
+                "referenceId": "Pitcher__cRef1"
+            },
+            "Name": "David Price",
+            "Throws__c": "Left",
+            "Active__c": true
+        },
+        {
+            "attributes": {
+                "type": "Pitcher__c",
+                "referenceId": "Pitcher__cRef2"
+            },
+            "Name": "Caleb Punter",
+            "Throws__c": "Left",
+            "Active__c": true
+        }
+    ]
+}

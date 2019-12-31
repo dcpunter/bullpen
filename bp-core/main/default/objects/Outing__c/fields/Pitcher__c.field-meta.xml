@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pitcher__c</fullName>
+    <externalId>false</externalId>
+    <label>Pitcher</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Only active Pitchers can participate in Outing</errorMessage>
+        <filterItems>
+            <field>Pitcher__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <infoMessage>Only Pitchers who&#39;s status is active are permitted.</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Pitcher__c</referenceTo>
+    <relationshipLabel>Outings</relationshipLabel>
+    <relationshipName>Outings</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
