@@ -15,7 +15,7 @@
             <name>Pitch_IsStrike_SetTrue</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <description>Executes everytime a new pitch is created</description>
         <formula>Type__r.Is_Strike__c</formula>
         <triggerType>onCreateOnly</triggerType>

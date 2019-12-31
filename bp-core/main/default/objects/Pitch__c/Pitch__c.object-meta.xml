@@ -154,8 +154,9 @@
     <enableStreamingApi>false</enableStreamingApi>
     <label>Pitch</label>
     <nameField>
+        <displayFormat>Pitch-{0000}</displayFormat>
         <label>Pitch Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Pitches</pluralLabel>
     <searchLayouts/>

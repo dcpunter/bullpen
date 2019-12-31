@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome__c</fullName>
+    <externalId>false</externalId>
+    <label>Outcome</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>At Bat</fullName>
+                <default>true</default>
+                <label>At Bat</label>
+            </value>
+            <value>
+                <fullName>Base Hit</fullName>
+                <default>false</default>
+                <label>Base Hit</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Hit By Pitch</fullName>
+                <default>false</default>
+                <label>Hit By Pitch</label>
+            </value>
+            <value>
+                <fullName>Put Out</fullName>
+                <default>false</default>
+                <label>Put Out</label>
+            </value>
+            <value>
+                <fullName>Strikeout</fullName>
+                <default>false</default>
+                <label>Strikeout</label>
+            </value>
+            <value>
+                <fullName>Walk</fullName>
+                <default>false</default>
+                <label>Walk</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

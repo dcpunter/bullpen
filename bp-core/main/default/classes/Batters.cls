@@ -15,6 +15,7 @@ public inherited sharing class Batters extends ApplicationDomain {
                 if (pitch.Is_Strike__c) {
                     if (batter.Count_Strikes__c == 2 && pitchType.Name == 'Foul Ball') {
                         //don't increase count
+                        //don't increase count
                     }
                     else {
                         batter.Count_Strikes__c++;

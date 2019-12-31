@@ -9,8 +9,10 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Bullpen</label>
     <navType>Standard</navType>
+    <tabs>Bullpen_Manager</tabs>
     <tabs>Outing__c</tabs>
     <tabs>Pitcher__c</tabs>
+    <tabs>Pitch_Type__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Bullpen_UtilityBar</utilityBar>
 </CustomApplication>
